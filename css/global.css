@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "font";
+  src: url("/Beatrice-Medium.woff2") format("truetype");
+}
+*, *::after, *::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "font", "sans-serif";
+  background-color: rgb(245, 245, 247);
+}/*# sourceMappingURL=global.css.map */
