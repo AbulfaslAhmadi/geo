@@ -54,32 +54,38 @@
 }
 
 .carousel-container {
-    overflow-x: scroll;
-    height: 400px;
+  overflow-x: scroll;
+  height: 400px;
 }
 
 .carousel-container::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
-  
+
 .carousel {
-    @include flex(row);
-    gap: 2rem;
-    width: 1650px;
-    justify-content: start;
-    margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 2rem;
+  width: 1650px;
+  justify-content: start;
+  margin-top: 20px;
 }
 
 .carousel-item {
-    height: 320px;
-    width: 300px;
-    background-color: white;
-    border-radius: 18px;
-    @include flex(row);
-    box-shadow: 4px 2px 10px rgba(0,0,0,0.08);
-    /* border-collapse: collapse; */
-    text-align: center;
-    position: relative;
+  height: 350px;
+  width: 300px;
+  background-color: white;
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  box-shadow: 4px 2px 10px rgba(0, 0, 0, 0.08);
+  /* border-collapse: collapse; */
+  text-align: center;
+  position: relative;
 }
 
 .carousel-item-paragraph {
@@ -97,7 +103,7 @@
   position: absolute;
   left: 20px;
   top: 10px;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   color: rgb(204, 204, 204);
   background-color: white;
   border-radius: 18px;
