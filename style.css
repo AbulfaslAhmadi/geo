@@ -1,6 +1,6 @@
 @font-face {
   font-family: "font";
-  src: url("/Beatrice-Medium.woff2") format("truetype");
+  src: url("Beatrice-Medium.woff2") format("truetype");
 }
 *, *::after, *::before {
   padding: 0;
