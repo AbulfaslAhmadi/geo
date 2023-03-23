@@ -216,7 +216,7 @@
 
 .nav-carousel-container {
   overflow-x: scroll;
-  height: 150px;
+  height: 200px;
   background-color: #fff;
 }
 
@@ -263,14 +263,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
 }
-.thank-you p {
+
+.thank-you-paragraph {
   font-size: 0.8rem;
   background-color: #fff;
+  padding-bottom: 1rem;
 }
-.thank-you p span {
+.thank-you-paragraph span {
   background-color: #fff;
+}
+
+.thank-you-collab {
+  font-size: 0.7rem;
+  background-color: #fff;
+  text-align: center;
+  padding-bottom: 3rem;
 }
 
 .external::after {
