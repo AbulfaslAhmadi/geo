@@ -8,7 +8,6 @@
   box-sizing: border-box;
   font-family: "font", "sans-serif";
   background-color: rgb(245, 245, 247);
-  scroll-behavior: smooth;
 }
 
 .upper-nav {
