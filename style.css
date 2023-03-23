@@ -8,6 +8,7 @@
   box-sizing: border-box;
   font-family: "font", "sans-serif";
   background-color: rgb(245, 245, 247);
+  scroll-behavior: smooth;
 }
 
 .upper-nav {
@@ -69,8 +70,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  gap: 2rem;
-  width: 1660px;
+  gap: 1rem;
+  width: 1590px;
   justify-content: start;
   margin: 20px 0 0 25px;
 }
@@ -116,11 +117,11 @@
 }
 
 .two {
-  width: 1330px;
+  width: 1280px;
 }
 
 .three {
-  width: 2000px;
+  width: 1910px;
 }
 
 .one-h1-low {
@@ -248,6 +249,7 @@
   align-items: center;
   flex-direction: row;
   border-radius: 100px;
+  box-shadow: 4px 2px 10px rgba(0, 0, 0, 0.08);
 }
 .nav-carousel-items p {
   background-color: #E8E8ED;
