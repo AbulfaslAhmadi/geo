@@ -191,7 +191,10 @@
   border-radius: 18px;
   box-shadow: 4px 2px 10px rgba(0, 0, 0, 0.08);
 }
-.nutzen-kacheln p {
+
+.nutzen-paragraph {
+  font-size: 1rem;
+  width: 90%;
   background-color: #fff;
   text-align: center;
 }
