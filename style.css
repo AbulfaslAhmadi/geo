@@ -284,10 +284,4 @@
   background-color: #fff;
   text-align: center;
   padding-bottom: 3rem;
-}
-
-.external::after {
-  content: url("images/external.png");
-  background-color: #fff;
-  margin: 10px 5px 0;
 }/*# sourceMappingURL=style.css.map */
