@@ -269,6 +269,7 @@
   font-size: 0.8rem;
   background-color: #fff;
 }
+
 .thank-you p span {
   background-color: #fff;
 }
@@ -277,4 +278,4 @@
   content: url("images/external.png");
   background-color: #fff;
   margin: 10px 5px 0;
-}/*# sourceMappingURL=style.css.map */
+}
